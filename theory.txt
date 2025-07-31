@@ -1,0 +1,48 @@
+Class 26.1 >> Review Class of 26
+=================================
+Review Class-02
+=======Class Notes=====
+Problem 02:
+Total donation money for flood effected people is 50lacs tk. 
+Some donation money added from an International organization. 
+The donation money from the organization is 20lacs.
+Now I want to divide the money between 90 families. 
+How much money will get each family?
+
+#Solution:
+
+let total_donation = 5000000;
+let add_donation   = 2000000;
+
+let new_donation = total_donation + add_donation;
+
+let family = 90;
+
+let get_each_family = new_donation / family;
+
+console.log(get_each_family);
+console.log("Each family will get: " + moneyPerFamily + " tk.");
+
+==========Data Type=========
+1. integer => 0, 1, 2, 3, 4, -1, -3
+2. float/double => 0.2, 4.5, 7777.7777, -9.39
+3. string => This is our js class, apple, r
+4. Boolean => true/false
+5. Object => {name: "suzuku", color: "black", engine: "150cc", price: 375000}
+
+=========Operator==========
+1. Arithmetic Operator (+, -, *, /, %, ++, --)
+   % = remaining
+
+2. Assignment Operator (=, +=, -=)
+   
+3. Logical Operator (||, &&, !)
+
+4. Relational Operator/Comparison Operator 
+   (<, >, <=, >=, !=, ==, ===)
+   == =both equal, just equal check kore.
+   10 == 10 =>true
+   === =data type and equal check kore
+   10 === 10.0 
+
+    10 == 10.0 true,       10 === 10.0 =>false 
